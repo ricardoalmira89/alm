@@ -1,0 +1,14 @@
+{
+    "name": "azcro/alm",
+    "description": "Libreria de uso standard.",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "ricardo",
+            "email": "ricardoalmira89@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}
