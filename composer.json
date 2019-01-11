@@ -1,14 +1,26 @@
 {
-    "name": "azcro/alm",
-    "description": "Libreria de uso standard.",
-    "type": "library",
-    "license": "MIT",
-    "authors": [
-        {
-            "name": "ricardo",
-            "email": "ricardoalmira89@gmail.com"
-        }
-    ],
-    "minimum-stability": "dev",
-    "require": {}
+  "type": "package",
+  "name": "azcro/alm",
+  "description": "Funcionalidades standard",
+  "keywords": ["array", "string", "utils", "php"],
+  "authors": [
+    {
+      "name": "Ricardo Almira",
+      "email": "ricardoalmira89@gmail.com",
+      "homepage": "https://github.com/ricardoalmira89"
+    }
+  ],
+  "minimum-stability": "dev",
+  "require": {
+  },
+  "require-dev": {
+    "symfony/var-dumper": "^3.3"
+  },
+  "license": "MIT",
+  "autoload": {
+    "files": ["src/autoload.php"],
+    "psr-4": {
+      "Alm\\": "src/"
+    }
+  }
 }
