@@ -188,5 +188,20 @@ class AlmArray
         );
     }
 
+    public static function head($data = [], $size = 10){
+
+        $i = 0;
+        $result = [];
+        foreach ($data as $key => $value){
+            $result[$key] = $value;
+
+            $i++;
+            if ($i == $size)
+                break;
+        }
+
+        return $result;
+    }
+
 
 }
